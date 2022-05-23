@@ -1,2 +1,2 @@
-# apg
-APG | Advenced Password Generator
+# APG
+Advenced Password Generator
