@@ -1,5 +1,10 @@
-from argparse import ArgumentParser
+from os import system
 from random import choice
+try:
+	from argparse import ArgumentParser
+execpt:
+	system("python -m pip install argparse")
+from argparse import ArgumentParser
 
 low = 'abcdefghijklmnopqrstuvwxyz'
 up = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
